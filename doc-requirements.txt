@@ -1,0 +1,4 @@
+beanbag-docutils~=2.4
+furo
+sphinx-copybutton
+sphinx~=7.3.0
