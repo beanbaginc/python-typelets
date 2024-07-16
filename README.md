@@ -35,6 +35,12 @@ Typelets follows [semantic versioning](https://semver.org/), meaning no
 surprises when you upgrade.
 
 
+## Documentation
+
+See the [Typelets documentation](https://typelets.readthedocs.io/) for
+usage.
+
+
 ## License
 
 Typelets is available under the MIT license.
