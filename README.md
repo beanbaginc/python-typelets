@@ -2,25 +2,42 @@
 
 [Typelets](https://pypi.org/project/typelets) is a Python typing utility module
 designed to augment some of the types provided in Python and third-party
-libraries.
+libraries. It was built to help develop
+[Review Board](https://www.reviewboard.org), our premier code review product
+from [Beanbag](https://www.beanbaginc.com), and we're making it available for
+use in other projects.
 
 This includes general Python additions, including:
 
-* `typelets.funcs`: Typing for general keyword arguments in functions.
+* [typelets.funcs](https://typelets.readthedocs.io/en/latest/coderef/python/typelets.funcs.html):
+  Typing for general keyword arguments in functions.
 
-* `typelets.json`: Typing for JSON structures, and for application-defined
-  data that can be serialized to JSON.
+* [typelets.json](https://typelets.readthedocs.io/en/latest/coderef/python/typelets.json.html):
+  Typing for JSON structures, and for application-defined data that can be
+  serialized to JSON.
 
-* `typelets.symbols`: Symbols for marking types as unset/unsettable.
+* [typelets.symbols](https://typelets.readthedocs.io/en/latest/coderef/python/typelets.symbols.html):
+  Symbols for marking types as unset/unsettable.
 
 Plus typing useful for Django developers:
 
-* `typelets.django.auth`: Types for accepting users.
-* `typelets.django.forms`: Types for forms and form fields.
-* `typelets.django.json`: Types for Django's JSON serialization.
-* `typelets.django.models`: Types for working with Django models.
-* `typelets.django.strings`: Types for localized strings.
-* `typelets.django.urls`: Types for URL management.
+* [typelets.django.auth](https://typelets.readthedocs.io/en/latest/coderef/python/typelets.django.auth.html):
+  Types for accepting users.
+
+* [typelets.django.forms](https://typelets.readthedocs.io/en/latest/coderef/python/typelets.django.forms.html):
+  Types for forms and form fields.
+
+* [typelets.django.json](https://typelets.readthedocs.io/en/latest/coderef/python/typelets.django.json.html):
+  Types for Django's JSON serialization.
+
+* [typelets.django.models](https://typelets.readthedocs.io/en/latest/coderef/python/typelets.django.models.html):
+  Types for working with Django models.
+
+* [typelets.django.strings](https://typelets.readthedocs.io/en/latest/coderef/python/typelets.django.strings.html):
+  Types for localized strings.
+
+* [typelets.django.urls](https://typelets.readthedocs.io/en/latest/coderef/python/typelets.django.urls.html):
+  Types for URL management.
 
 
 ## Installation
