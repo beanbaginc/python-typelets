@@ -1,13 +1,15 @@
-===================
-Typelets for Python
-===================
+============
+Typelets 1.0
+============
+
+**Release date:** July 15, 2024
 
 Typelets is a Python typing utility module designed to augment some of the
 types provided in Python and third-party libraries. It was built to help
 develop `Review Board`_, our premier code review product from Beanbag_, and
 we're making it available for use in other projects.
 
-This includes general Python additions, including:
+This initial release features the following Python typing and utility modules:
 
 * :py:mod:`typelets.funcs`: Typing for general keyword arguments in functions.
 
@@ -31,33 +33,8 @@ Plus typing useful for Django developers:
 .. _Review Board: https://www.reviewboard.org
 
 
-Installation
+Contributors
 ============
 
-To install Typelets, run:
-
-.. code-block:: console
-
-   $ pip install typelets
-
-Typelets follows `semantic versioning`_, meaning no surprises when you
-upgrade.
-
-.. _semantic versioning: https://semver.org/
-
-
-Documentation
-=============
-
-.. toctree::
-   :maxdepth: 3
-
-   coderef/index
-   releasenotes/index
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
+* Christian Hammond
+* David Trowbridge
