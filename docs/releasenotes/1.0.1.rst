@@ -1,0 +1,21 @@
+============
+Typelets 1.1
+============
+
+**Release date:** July 15, 2024
+
+
+Packaging
+=========
+
+* Added a missing copy of the license file.
+
+* Updated the homepage and documentation references to link to the
+  `new documentation <https://typelets.readthedocs.io/>`_.
+
+
+Contributors
+============
+
+* Christian Hammond
+* David Trowbridge
