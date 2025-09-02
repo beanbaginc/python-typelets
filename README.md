@@ -16,6 +16,9 @@ This includes general Python additions, including:
   Typing for JSON structures, and for application-defined data that can be
   serialized to JSON.
 
+* [typelets.runtime](https://typelets.readthedocs.io/en/latest/coderef/python/typelets.runtime.html):
+  Utilities for run-time type checking.
+
 * [typelets.symbols](https://typelets.readthedocs.io/en/latest/coderef/python/typelets.symbols.html):
   Symbols for marking types as unset/unsettable.
 

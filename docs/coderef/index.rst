@@ -10,6 +10,7 @@ Module and Class References
    typelets
    typelets.funcs
    typelets.json
+   typelets.runtime
    typelets.symbols
    typelets.django
    typelets.django.auth

@@ -14,6 +14,8 @@ This includes general Python additions, including:
 * :py:mod:`typelets.json`: Typing for JSON structures, and for
   application-defined data that can be serialized to JSON.
 
+* :py:mod:`typelets.runtime`: Utilities for run-time type checking.
+
 * :py:mod:`typelets.symbols`: Symbols for marking variables or function
   arguments as unset/unsettable.
 
