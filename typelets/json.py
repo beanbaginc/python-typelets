@@ -34,7 +34,7 @@ JSONValue: TypeAlias = Union[
 ]
 
 
-#: A type for a dictionary mapping strings to JSON vlaues.
+#: A type for a dictionary mapping strings to JSON values.
 #:
 #: All values are natively-supported JSON data.
 #:
@@ -43,10 +43,10 @@ JSONValue: TypeAlias = Union[
 #:
 #: Version Added:
 #:     1.0
-JSONDict: TypeAlias = dict[str, JSONValue]
+JSONDict: TypeAlias = Dict[str, JSONValue]
 
 
-#: An immutable type mapping strings to JSON vlaues.
+#: An immutable type mapping strings to JSON values.
 #:
 #: This is an immutable version of :py:class:`JSONDict`, which cannot be
 #: modified once set. It can help with type narrowing and is recommended when
@@ -67,7 +67,7 @@ JSONDictImmutable: TypeAlias = Mapping[str, JSONValue]
 #:
 #: Version Added:
 #:     1.0
-JSONList: TypeAlias = list[JSONValue]
+JSONList: TypeAlias = List[JSONValue]
 
 
 #: An immutable type of a list of JSON values.
