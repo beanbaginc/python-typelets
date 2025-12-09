@@ -1,0 +1,44 @@
+==============
+Typelets 1.1.0
+==============
+
+**Release date:** December 9, 2025
+
+typelets.funcs
+==============
+
+Added :py:func:`~typelets.funcs.type_func_params_as` and
+:py:func:`~typelets.funcs.type_method_params_as`, which can be used as
+decorators to "inherit" the typing from one function to another. This will
+automatically apply typing to ``*args`` and ``**kwargs`` to match the
+annotations that exist on another function.
+
+These do have some limitations on usage and compatibility. See the
+documentation for each of the methods for details.
+
+
+typelets.json
+=============
+
+Fixed up some type definitions which were incompatible with Python 3.8.
+
+
+typelets.runtime
+================
+
+Added the new :py:mod:`typelets.runtime` module, which contains utilities for
+working with types at run-time (as opposed to just type-checking).
+
+This contains a new method, :py:func:`~typelets.runtime.raise_invalid_type`,
+which works a lot like :py:func:`typing.assert_never`, but allows raising
+exceptions other than :py:class:`AssertionError`. This makes it easier to write
+code which performs runtime checking for defensiveness while also satisfying
+type checkers that do dead-code checks.
+
+
+Contributors
+============
+
+* Christian Hammond
+* David Trowbridge
+* Michelle Aubin
