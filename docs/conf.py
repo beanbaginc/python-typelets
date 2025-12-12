@@ -55,12 +55,27 @@ extlinks = {
 
 autodoc_member_order = 'bysource'
 autoclass_content = 'class'
-autodoc_default_flags = [
-    'members',
-    'special-members',
-    'undoc-members',
-    'show-inheritance',
-]
+autodoc_default_options = {
+    'members': True,
+    'special-members': True,
+    'undoc-members': True,
+    'show-inheritance': True,
+}
+autodoc_excludes = {
+    '*': [
+        '__abstractmethods__',
+        '__annotations__',
+        '__callable_proto_members_only__',
+        '__dict__',
+        '__doc__',
+        '__module__',
+        '__orig_bases__',
+        '__parameters__',
+        '__protocol_attrs__',
+        '__subclasshook__',
+        '__weakref__',
+    ],
+}
 
 add_function_parentheses = True
 
@@ -92,7 +107,7 @@ def linkcode_resolve(domain, info):
         else:
             branch += '.x'
     else:
-        branch = 'master'
+        branch = 'main'
 
     return github_linkcode_resolve(domain=domain,
                                    info=info,

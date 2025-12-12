@@ -50,3 +50,7 @@ version = { attr = 'typelets._version.get_package_version' }
 
 [tool.setuptools.package-data]
 typelets = ['py.typed']
+
+
+[tool.pyright]
+reportUnknownArgumentType = false
