@@ -6,7 +6,7 @@
 #
 #   (Major, Minor, Micro, alpha/beta/rc/final, Release Number, Released)
 #
-VERSION = (1, 1, 0, 'final', 0, True)
+VERSION: tuple[int, int, int, str, int, bool] = (1, 2, 0, 'alpha', 0, False)
 
 
 def get_version_string() -> str:
@@ -16,7 +16,7 @@ def get_version_string() -> str:
         str:
         The display version.
     """
-    major, minor, micro, tag, release_num, released = VERSION
+    major, minor, micro, tag, release_num, _released = VERSION
 
     version = f'{major}.{minor}'
 
@@ -42,7 +42,7 @@ def get_package_version() -> str:
         str:
         The display version.
     """
-    major, minor, micro, tag, release_num, released = VERSION
+    major, minor, micro, tag, release_num, _released = VERSION
 
     version = f'{major}.{minor}'
 
