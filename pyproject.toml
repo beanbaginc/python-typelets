@@ -9,7 +9,8 @@ description = 'Type hints and utility objects for Python and Django projects.'
 authors = [
     {name = 'Beanbag, Inc.', email = 'questions@beanbaginc.com'},
 ]
-license = { text = 'MIT' }
+license = "MIT"
+license-files = ['LICENSE']
 readme = 'README.md'
 requires-python = '>=3.8'
 dynamic = ['version']
@@ -22,7 +23,6 @@ classifiers = [
     'Development Status :: 5 - Production/Stable',
     'Environment :: Other Environment',
     'Intended Audience :: Developers',
-    'License :: OSI Approved :: MIT License',
     'Operating System :: OS Independent',
     'Programming Language :: Python',
     'Programming Language :: Python :: 3',
