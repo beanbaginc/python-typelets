@@ -1,5 +1,8 @@
 """Basic version and package information."""
 
+from __future__ import annotations
+
+
 # The version of typelets.
 #
 # This is in the format of:
